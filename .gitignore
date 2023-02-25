@@ -1,3 +1,8 @@
+# .config/nvim
+.config/nvim/plugin/packer_compiled.lua
+.config/nvim/HackGen*
+.config/nvim/lua/submodules
+
 # Compiled Lua sources
 luac.out
 
