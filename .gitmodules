@@ -1,0 +1,8 @@
+[submodule ".config/lvim"]
+  path = .config/lvim
+  url = git@github.com:kokardy/config-lvim
+  ignore = dirty
+[submodule ".config/nvim"]
+  path = .config/nvim
+  url = git@github.com:kokardy/config-nvim
+  ignore = dirty
