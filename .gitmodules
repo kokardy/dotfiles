@@ -6,3 +6,7 @@
   path = .config/nvim
   url = git@github.com:kokardy/config-nvim
   ignore = dirty
+[submodule ".config/lsp/lua-language-server"]
+  path = .config/lsp/lua-language-server
+  url = https://github.com/LuaLS/lua-language-server
+  shallow = true
