@@ -23,7 +23,7 @@ mise use -g cargo
 ##### curl https://sh.rustup.rs -sSf | sh
 
 # neovim
-cargo install bob-nvim
+mise install cargo:bob-nvim
 bob install nightly
 bob install latest
 
@@ -31,7 +31,8 @@ bob install latest
 
 sudo apt-get install luarocks xsel
 sudo bun install --global yarn tree-sitter prettier pyright neovim spectral-language-server
-cargo install remark stylua ripgrep fd-find typos-cli
+mise use cargo:remark cargo:stylua cargo:ripgrep cargo:fd-find cargo:typos-cli
+# cargo install remark stylua ripgrep fd-find typos-cli
 
 # font install
 
