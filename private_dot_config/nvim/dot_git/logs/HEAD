@@ -1,0 +1,65 @@
+0000000000000000000000000000000000000000 462a1b8e77afae37f592ce7364fbd22c25e39eeb magician1 <magician1@ThinkPadE14Gen6.(none)> 1757165303 +0900	clone: from github.com:kokardy/config-nvim
+462a1b8e77afae37f592ce7364fbd22c25e39eeb cffd5fab01b603d067c6a96035706e662e257bc2 kokardy <mgc1028@gmail.com> 1761462971 +0900	commit: Add debugpy in testdata project
+cffd5fab01b603d067c6a96035706e662e257bc2 851561ff631f3acf21ea8a2e0e432f8a872e1727 kokardy <mgc1028@gmail.com> 1762062871 +0900	commit: Resolve warning and error
+851561ff631f3acf21ea8a2e0e432f8a872e1727 a11789137bcc6e5832ac09f172f33f52c396d1a0 kokardy <mgc1028@gmail.com> 1762065646 +0900	commit: fix nvim-lilypond-suite config
+a11789137bcc6e5832ac09f172f33f52c396d1a0 aec8a9be1339aa2caaeaa7f5cc1d9fff432733f2 kokardy <mgc1028@gmail.com> 1762070970 +0900	commit: Change LSP for Python: pyright => basedpyright
+aec8a9be1339aa2caaeaa7f5cc1d9fff432733f2 54dde0da899409283a4be7acda3f6578f94a3742 kokardy <mgc1028@gmail.com> 1762696884 +0900	commit: Change css for markdown-preview
+54dde0da899409283a4be7acda3f6578f94a3742 2df6174aa70013669c1438d7df87a2c9dec03704 kokardy <mgc1028@gmail.com> 1764466162 +0900	commit: Add plugin: live-rename.nvim, nvim-hilight-colors
+2df6174aa70013669c1438d7df87a2c9dec03704 f97a7168043c4246d30ad234986a19dc19962279 kokardy <mgc1028@gmail.com> 1764467654 +0900	commit: Config: cmdbuf, live-rename
+f97a7168043c4246d30ad234986a19dc19962279 95fe1003be6d9ff43913c69fe4f525aa1a598875 kokardy <mgc1028@gmail.com> 1764567592 +0900	commit: Fix: CodeCompanion default model: claude-sonnet-4.5
+95fe1003be6d9ff43913c69fe4f525aa1a598875 64b49a91faee1855ae73a74306358d7bb120adb0 kokardy <mgc1028@gmail.com> 1764569098 +0900	commit: Config: copilot max_tokens
+64b49a91faee1855ae73a74306358d7bb120adb0 a7d89e4a04988bdebb4ad9e3bf170ebfea468839 kokardy <mgc1028@gmail.com> 1764686880 +0900	commit: Add LSP: emmet_ls
+a7d89e4a04988bdebb4ad9e3bf170ebfea468839 2dd1413a18980fc481fc3e6061fbf8dd418dee9f kokardy <mgc1028@gmail.com> 1764858596 +0900	commit: Add plugin: rest.nvim. http client
+2dd1413a18980fc481fc3e6061fbf8dd418dee9f e128778001adbfd64811bb781fc36e95b73f4b6b kokardy <mgc1028@gmail.com> 1764946061 +0900	commit: Change http client: rest.nvim => kulala.nvim
+e128778001adbfd64811bb781fc36e95b73f4b6b 67ce74a75d9267bd29c7e7c829f0b8aabf180de2 kokardy <mgc1028@gmail.com> 1764996865 +0900	commit: Modify testdata: http
+67ce74a75d9267bd29c7e7c829f0b8aabf180de2 ac110ce59bf91b939c2b1175e8aee73b89be54ac kokardy <mgc1028@gmail.com> 1765950960 +0900	commit: Config: LSP for python
+ac110ce59bf91b939c2b1175e8aee73b89be54ac d452be12d8f9bc199b0b27135759919cd752a322 kokardy <mgc1028@gmail.com> 1766101462 +0900	commit: Add snippet: python decorator
+d452be12d8f9bc199b0b27135759919cd752a322 8110be5ce5964276cad9c4111c6f1489be1a471e kokardy <mgc1028@gmail.com> 1766117917 +0900	commit: Add snippet: python logger
+8110be5ce5964276cad9c4111c6f1489be1a471e 94e1680605f52ac018f11636ee680a45324b2820 kokardy <mgc1028@gmail.com> 1766119520 +0900	commit: Add snippets: python sqlalchemy
+94e1680605f52ac018f11636ee680a45324b2820 94e1680605f52ac018f11636ee680a45324b2820 kokardy <mgc1028@gmail.com> 1766317479 +0900	checkout: moving from main to fix_lazy
+94e1680605f52ac018f11636ee680a45324b2820 03a0c716a6eb3e1a3a4de3c11e65e452288a4eab kokardy <mgc1028@gmail.com> 1766326269 +0900	commit: Lazyのplugins整理
+03a0c716a6eb3e1a3a4de3c11e65e452288a4eab 9641a5eb4818032441ffb0984102ddd980af48d2 kokardy <mgc1028@gmail.com> 1766327102 +0900	commit: colorscheme
+9641a5eb4818032441ffb0984102ddd980af48d2 d4b26c7a24fa0dce82e693122347763d49a222c8 kokardy <mgc1028@gmail.com> 1766327892 +0900	commit (amend): colorscheme
+d4b26c7a24fa0dce82e693122347763d49a222c8 e02c684e251e1124f0dca10585ff0e0554308b9a kokardy <mgc1028@gmail.com> 1766411041 +0900	commit: plugin整理
+e02c684e251e1124f0dca10585ff0e0554308b9a 55f6845fa10ef58428966e3772c8ba663c0c14c1 kokardy <mgc1028@gmail.com> 1766414285 +0900	commit: エラー修正
+55f6845fa10ef58428966e3772c8ba663c0c14c1 94e1680605f52ac018f11636ee680a45324b2820 kokardy <mgc1028@gmail.com> 1766414336 +0900	checkout: moving from fix_lazy to main
+94e1680605f52ac018f11636ee680a45324b2820 1f2b7901ab127fcd0a0728aecb267d7132786c30 kokardy <mgc1028@gmail.com> 1766414339 +0900	pull: Fast-forward
+1f2b7901ab127fcd0a0728aecb267d7132786c30 3571cfba1c866814204af1385de70b456f54cfa9 kokardy <mgc1028@gmail.com> 1766713633 +0900	commit: change color
+3571cfba1c866814204af1385de70b456f54cfa9 557480c3405f9767552374855533691d89ce6c41 kokardy <mgc1028@gmail.com> 1766716048 +0900	commit: change color
+557480c3405f9767552374855533691d89ce6c41 4d4cd3bab96d21f3cff12782a2073eff36f406bb kokardy <mgc1028@gmail.com> 1766716581 +0900	commit: change color
+4d4cd3bab96d21f3cff12782a2073eff36f406bb 4e3b962b68dd9182362da16d4599975dd45c7d19 kokardy <mgc1028@gmail.com> 1766839879 +0900	commit: change color
+4e3b962b68dd9182362da16d4599975dd45c7d19 72196fd36fae3491067f6115257c04139bb59f25 kokardy <mgc1028@gmail.com> 1766841949 +0900	commit: change color
+72196fd36fae3491067f6115257c04139bb59f25 65c2b21a27d4b328d72a09e1a960b8d7ae35084c kokardy <mgc1028@gmail.com> 1767232480 +0900	commit: :qで全部閉じる
+65c2b21a27d4b328d72a09e1a960b8d7ae35084c dc5ee84b2d7b12e9e0ef161d908a635bfb3ce17f kokardy <mgc1028@gmail.com> 1769693372 +0900	commit: config: kulala max_response_size=200KB
+dc5ee84b2d7b12e9e0ef161d908a635bfb3ce17f af4c37bbf163957e457325ae68c90c7a3cd282f6 kokardy <mgc1028@gmail.com> 1769693388 +0900	pull --rebase origin main (start): checkout af4c37bbf163957e457325ae68c90c7a3cd282f6
+af4c37bbf163957e457325ae68c90c7a3cd282f6 2081d79ee1c4d259174155dfbdb2b0670a353a1d kokardy <mgc1028@gmail.com> 1769693388 +0900	pull --rebase origin main (pick): config: kulala max_response_size=200KB
+2081d79ee1c4d259174155dfbdb2b0670a353a1d 2081d79ee1c4d259174155dfbdb2b0670a353a1d kokardy <mgc1028@gmail.com> 1769693388 +0900	pull --rebase origin main (finish): returning to refs/heads/main
+2081d79ee1c4d259174155dfbdb2b0670a353a1d b343c58b6ed540bdcb4c164dfb68884fc7b537c3 kokardy <mgc1028@gmail.com> 1769847638 +0900	commit: add snippet
+b343c58b6ed540bdcb4c164dfb68884fc7b537c3 0fe39ec485221434c819f9a5f9736e908dec5f5a kokardy <mgc1028@gmail.com> 1769867943 +0900	commit: fix init_db snipet
+0fe39ec485221434c819f9a5f9736e908dec5f5a b6d667adf22722f2e5fc21cbba94a8921808afaa kokardy <mgc1028@gmail.com> 1769939909 +0900	commit: snippet整理
+b6d667adf22722f2e5fc21cbba94a8921808afaa 77af00063dca0ed84dc747241570dd917bafed5e kokardy <mgc1028@gmail.com> 1769956043 +0900	commit: fix snippet
+77af00063dca0ed84dc747241570dd917bafed5e 28cac7e61052749c86ea9eed5f184151e66afede kokardy <mgc1028@gmail.com> 1769956263 +0900	commit (amend): fix snippet
+28cac7e61052749c86ea9eed5f184151e66afede 28e31595a5d39743068dfda3e82271367c7be1e8 kokardy <mgc1028@gmail.com> 1769990534 +0900	commit: fix snippet
+28e31595a5d39743068dfda3e82271367c7be1e8 6874f97040100cebac21d03ded226cbf9b575ebb kokardy <mgc1028@gmail.com> 1770531987 +0900	commit: add snippet
+6874f97040100cebac21d03ded226cbf9b575ebb 371c19835d25b5f58f0eeae6b762733f98488e6c kokardy <mgc1028@gmail.com> 1770550376 +0900	commit: add snippet
+371c19835d25b5f58f0eeae6b762733f98488e6c 7b8d21689e443a054805440e98d46e59a1bf9c51 kokardy <mgc1028@gmail.com> 1770551131 +0900	commit: add snippet
+7b8d21689e443a054805440e98d46e59a1bf9c51 e779af72e0ec0ae61e4df848a8a31613e2a977ba kokardy <mgc1028@gmail.com> 1770626386 +0900	commit: add linter for json
+e779af72e0ec0ae61e4df848a8a31613e2a977ba cc4f7a208dec746d0cc23bef8b12361b17e29d0a kokardy <mgc1028@gmail.com> 1771057711 +0900	commit: fix snippet syntax error
+cc4f7a208dec746d0cc23bef8b12361b17e29d0a 5c13ca7810d3dfa9cc82e8d29cda682e9a804594 kokardy <mgc1028@gmail.com> 1771565589 +0900	commit: config codecompanion default model
+5c13ca7810d3dfa9cc82e8d29cda682e9a804594 d51e9e56fa5ca6eb23846404c8fba9f138e60954 kokardy <mgc1028@gmail.com> 1771602313 +0900	commit: config codecompanion
+d51e9e56fa5ca6eb23846404c8fba9f138e60954 ea8faa989a6ac354c29b48ca746f9b4582eca998 kokardy <mgc1028@gmail.com> 1771851365 +0900	commit: fix dap
+ea8faa989a6ac354c29b48ca746f9b4582eca998 4a15393411f268e646adde9a6fac60513fcb2c31 kokardy <mgc1028@gmail.com> 1771892222 +0900	commit: fix mypy_error.py
+4a15393411f268e646adde9a6fac60513fcb2c31 b2014c3c3eb552ac1af5dfa8e4dcd55269af2f84 kokardy <mgc1028@gmail.com> 1771915963 +0900	commit: Add snippet for docker-compose.yaml
+b2014c3c3eb552ac1af5dfa8e4dcd55269af2f84 c434991ae4fd0e95259479f217d3dc2e676fa257 kokardy <mgc1028@gmail.com> 1772773493 +0900	commit: Add plugin: claudecode.nvim
+c434991ae4fd0e95259479f217d3dc2e676fa257 818799f5af485923f639599e4312dbc6f5917be9 kokardy <mgc1028@gmail.com> 1772788060 +0900	commit (amend): Add plugin: claudecode.nvim
+818799f5af485923f639599e4312dbc6f5917be9 df776eb91f195a400e983344bce3431adf38d07c kokardy <mgc1028@gmail.com> 1773478245 +0900	commit: add snippet for pyproject.toml
+df776eb91f195a400e983344bce3431adf38d07c 1969f55c93b99ccbcf4d88cedbc18e76123d329a kokardy <mgc1028@gmail.com> 1773722396 +0900	commit: add plugin: Aibo
+1969f55c93b99ccbcf4d88cedbc18e76123d329a 440eb39b2fb546209ab9fc130f56412d7d044161 kokardy <2720900+kokardy@users.noreply.github.com> 1774773761 +0900	reset: moving to origin/main
+440eb39b2fb546209ab9fc130f56412d7d044161 3d899e38a00437afa751a4e777516390c389e708 kokardy <2720900+kokardy@users.noreply.github.com> 1775182420 +0900	commit: markdown nowrap
+3d899e38a00437afa751a4e777516390c389e708 597772cc79f3d3f17da43fc477a9324641462bc4 kokardy <2720900+kokardy@users.noreply.github.com> 1776259717 +0900	commit: clean arch snippet
+597772cc79f3d3f17da43fc477a9324641462bc4 4938ad0aa26901c83620f2a46cfa8ab8c2b88afb kokardy <2720900+kokardy@users.noreply.github.com> 1776506786 +0900	commit: agentic.nvim
+4938ad0aa26901c83620f2a46cfa8ab8c2b88afb e15666f1588a08d8387834c7c252f8a0b265d0ce kokardy <2720900+kokardy@users.noreply.github.com> 1776517252 +0900	commit: treesitter branch: main
+e15666f1588a08d8387834c7c252f8a0b265d0ce e2ec600d098b24e37d7b9d07f10413e844718f0e kokardy <2720900+kokardy@users.noreply.github.com> 1776733781 +0900	commit: config agentic.lua keymap
+e2ec600d098b24e37d7b9d07f10413e844718f0e 9ca938db9d5772b9c1bd760046a8be135a607d67 kokardy <2720900+kokardy@users.noreply.github.com> 1777044746 +0900	commit: fix install.sh
+9ca938db9d5772b9c1bd760046a8be135a607d67 5990e1285c81542852e64bb825e6d11f51f4b4d8 kokardy <2720900+kokardy@users.noreply.github.com> 1778320181 +0900	commit: LSP hover見やすく
+5990e1285c81542852e64bb825e6d11f51f4b4d8 3acfcdd81a6fe76431d5f54f79ba29f5a1ef1358 kokardy <2720900+kokardy@users.noreply.github.com> 1778920956 +0900	pull: Fast-forward

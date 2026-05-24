@@ -1,0 +1,5 @@
+font-size=20
+
+keybind = F12=toggle_quick_terminal
+quick-terminal-modifier = none
+quick-terminal-position = top

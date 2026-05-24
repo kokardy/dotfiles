@@ -1,0 +1,12 @@
+# pack-refs with: peeled fully-peeled sorted 
+3e1021ca191824c3bf1f9f65ee0095d3ee0a32fc refs/remotes/origin/11-vue
+05b7d0a98bc7cf9df4febc0353d434e5c44bb812 refs/remotes/origin/4-try-codecompanionnvim
+83e0647ed49a12c7db97fcc8b352612ff4fd4e22 refs/remotes/origin/6-fix-markdown-preview
+75fc229b45c7a4ce5d143dc8b3057a0c79bb868f refs/remotes/origin/9-add-lazydev
+0e593e14bfeaaa04500b4e829ce2cdc3449d61fb refs/remotes/origin/gjgk
+02b1f09add7a989f0a558d9fa3ec0c9e3633c4df refs/remotes/origin/lua
+031bedb5760ff553d6dab9acdb42d5cd9712277f refs/remotes/origin/lunarvim
+462a1b8e77afae37f592ce7364fbd22c25e39eeb refs/remotes/origin/main
+9aebdb383343484c534d23d2a9d17dc7ac14c7ef refs/remotes/origin/nvim-tree
+97a9c0b4554ebb1d0e28e93bd2516752f86bebf5 refs/remotes/origin/oil.nvim
+bf012036298f467ee3f6dc26f3e5df452f2b1be3 refs/remotes/origin/vimrc

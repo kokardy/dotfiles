@@ -1,0 +1,88 @@
+version: 2
+log-file: /tmp/efm.log
+log-level: 1
+# root-markers:
+#   - .git/
+lint-debounce: 1s
+commands:
+  - command: nvim
+    arguments:
+      - ${INPUT}
+    title: メモ帳
+tools:
+  python-mypy: &python-mypy
+    prefix: mypy
+    # lint-command: 'uv run mypy --strict --show-column-numbers'
+    lint-command: 'uv run dmypy run -- --strict --show-column-numbers ${INPUT}'
+    lint-formats:
+      - '%f:%l:%c: %trror: %m'
+      - '%f:%l:%c: %tarning: %m'
+      - '%f:%l:%c: %tote: %m'
+      - '%f:%l: %trror: %m'
+      - '%f:%l: %tarning: %m'
+      - '%f:%l: %tote: %m'
+    lint-ignore-exit-code: true
+    root-markers:
+      - ".venv/"
+      - "pyproject.toml"
+      - "mypy.ini"
+  cspell: &cspell
+    prefix: cspell
+    lint-command: "cspell lint --no-progress --no-summary --no-color ${INPUT}"
+    lint-ignore-exit-code: true
+    root-markers:
+      - ".cspell.yaml"
+      - "cspell.yaml"
+    lint-formats:
+      - '%f:%l:%c - %m'
+      - '%f:%l:%c %m'
+  biome-lint: &biome-lint
+    prefix: biome
+    lint-command: "bunx @biomejs/biome lint --reporter github"
+    lint-formats:
+      - "::%trror title=%*[^,],file=%f,line=%l,endLine=%*[^,],col=%c,endColumn=%*[^:]::%m"
+      - "::%tarning title=%*[^,],file=%f,line=%l,endLine=%*[^,],col=%c,endColumn=%*[^:]::%m"
+  javascript-prettier: &javascript-prettier
+    lint-command: "prettier ---single-quote"
+    lint-formats:
+      - "%f:%l:%c: %m"
+    root-markers:
+      - ".package.json"
+  jsx-prettier: &jsx-prettier
+    lint-command: "prettier - --no-semi --single-quote --jsx-single-quote"
+    lint-formats:
+      - "%f:%l:%c: %m"
+    root-markers:
+      - ".package.json"
+  spectral: &spectral
+    prefix: spectral
+    # lint-command: "spectral lint -f text -F hint ${INPUT} 2>&1 | tee /tmp/spectral.log"
+    lint-command: "spectral lint -f text -F hint ${INPUT}"
+    lint-formats:
+      - "%f:%l:%c %trror %m"
+      - "%f:%l:%c %tarning %m"
+      - "%f:%l:%c %tote: %m"
+    root-markers:
+      - ".spectral.yaml"
+      - ".spectral.yml"
+      - ".spectral.json"
+      - "spectral.yaml"
+      - "spectral.yml"
+      - "spectral.json"
+languages:
+  python:
+    - <<: *python-mypy
+    - <<: *cspell
+  json:
+    - <<: *biome-lint
+  javascript:
+    - <<: *javascript-prettier
+  jsx:
+    - <<: *jsx-prettier
+  markdown:
+    - <<: *cspell
+  yaml:
+    - <<: *cspell
+  openapi:
+    - <<: *cspell
+    - <<: *spectral

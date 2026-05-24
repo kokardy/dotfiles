@@ -1,0 +1,73 @@
+openapi: 3.1.0
+info :
+  title: Webhook Example infomation
+  versioni: 1.0.1
+  contact: 
+    name: kokardy # cspell don't report
+x-stoplight:
+  id: fdsfajkajfa # cspell don't report
+# Since OAS 3.1.0 the paths element isn't necessary. Now a valid OpenAPI Document can describe only paths, webhooks, or even only reusable components
+webhooks:
+  # Each webhook needs a name
+  inewPet:
+    # This is a Path Item Object, the only difference is that the request is initiated by the API provider
+    post:
+      requestBody:
+        description: Information about a new pet in the system. typo check jjks infomation
+        content:
+          application/json:
+            schema:
+              $ref: "#/components/schemas/Pet"
+      responses:
+        "200":
+          description: Return a 200 status to indicate that the data was received successfully
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/Pet2"
+
+components:
+  schemas:
+    Pet:
+      required:
+        - id
+        - name
+      properties:
+        id:
+          type: integer
+          format: int64
+        code:
+          type: string
+          minLength: 5
+          maxLength: 5
+        name:
+          type: string
+        tag:
+          type: string
+    Pet2:
+      required:
+        - id
+        - name
+      properties:
+        id:
+          type: integer
+          format: int64
+        name:
+          type: string
+        code:
+          type: string
+          pattern: "^[0-9]{5}$"
+        tag:
+          type: string
+    Pet3:
+      required:
+        - code
+      properties:
+        code:
+          type: string
+    Pet4:
+      required:
+        - code
+      properties:
+        code:
+          type: integer

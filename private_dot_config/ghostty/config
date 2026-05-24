@@ -1,0 +1,29 @@
+title = "Ghostty"
+font-size=20
+window-save-state = always
+
+maximize = true
+window-width = 120
+window-height = 60
+font-family = "Moralerspace Xenon JPDOC"
+font-family-bold = "Moralerspace Xenon JPDOC Bold"
+font-family-italic = "Moralerspace Xenon JPDOC Italic"
+font-family-bold-italic = "Moralerspace Xenon JPDOC BoldItalic"
+
+background-opacity = 0.85
+
+# クイックターミナルを画面上部に表示
+quick-terminal-position = top
+# メインディスプレイに表示
+quick-terminal-screen = main
+# アニメーション速度(秒単位)
+quick-terminal-animation-duration = 0.1
+# フォーカスが外れたら自動的に非表示
+quick-terminal-autohide = true
+# 幅100%、高さ210pxで表示
+quick-terminal-size = 100%,100%
+
+# グローバルキーバインドで切り替え
+# ~/.config/run-or-raise/shortcuts.confで設定
+# <Shift>F11:switch-back-when-focused,ghostty,com.mitchellh.ghostty
+# keybind = global:ctrl+enter=toggle_quick_terminal
