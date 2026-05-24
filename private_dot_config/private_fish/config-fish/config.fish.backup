@@ -1,0 +1,9 @@
+set EDITOR nvim
+set GOPATH ~/go
+set -x PATH $GOPATH/bin $PATH
+set -x PATH ~/.local/bin $PATH
+set -x PATH ~/go/bin $PATH
+
+alias vim=nvim
+alias python=python3
+alias se='export EDITOR=$EDITOR; sudoedit '
