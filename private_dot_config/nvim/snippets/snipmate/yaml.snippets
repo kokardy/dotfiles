@@ -103,3 +103,8 @@ snippet lefthook lefthook.yml
           - "*.tsx"
           - "*.jsx"
         stage_fixed: true
+  pre-push:
+    parallel: true
+    jobs:
+      # pytest
+      - run: uv run pytest
