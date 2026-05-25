@@ -1,0 +1,41 @@
+# dotfiles/mise.toml
+[tasks.setup]
+description = "環境の初期セットアップ"
+run = """
+# mise
+curl https://mise.run | sh
+
+# install
+mise use -g uv bun cargo lua
+
+# xsel
+sudo apt-get install xsel
+
+# bun tool
+bun install --global yarn prettier pyright neovim spectral-language-server
+
+# cargo instlal
+cargo install remark stylua ripgrep fd-find typos-cli bob-nvim
+
+# uv install
+uv install pynvim black isort ruff mypy ty
+
+# nvim
+bob install nightly
+
+"""
+
+[tasks.font_setup]
+description = "フォントセットアップ"
+
+run = """
+# font
+wget "https://github.com/yuru7/moralerspace/releases/download/v2.0.0/MoralerspaceJPDOC_v2.0.0.zip"
+unzip -D MoralerspaceJPDOC_v2.0.0.zip
+mkdir -p ~/.fonts
+cp MoralerspaceJPDOC_v2.0.0/*.ttf ~/.fonts/
+fc-cache -v
+
+rm -f ./MoralerspaceJPDOC_*.zip
+rm -rf ./MoralerspaceJPDOC_*
+"""
