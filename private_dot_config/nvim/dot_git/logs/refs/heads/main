@@ -54,3 +54,4 @@ e15666f1588a08d8387834c7c252f8a0b265d0ce e2ec600d098b24e37d7b9d07f10413e844718f0
 e2ec600d098b24e37d7b9d07f10413e844718f0e 9ca938db9d5772b9c1bd760046a8be135a607d67 kokardy <2720900+kokardy@users.noreply.github.com> 1777044746 +0900	commit: fix install.sh
 9ca938db9d5772b9c1bd760046a8be135a607d67 5990e1285c81542852e64bb825e6d11f51f4b4d8 kokardy <2720900+kokardy@users.noreply.github.com> 1778320181 +0900	commit: LSP hover見やすく
 5990e1285c81542852e64bb825e6d11f51f4b4d8 3acfcdd81a6fe76431d5f54f79ba29f5a1ef1358 kokardy <2720900+kokardy@users.noreply.github.com> 1778920956 +0900	pull: Fast-forward
+3acfcdd81a6fe76431d5f54f79ba29f5a1ef1358 c1b696b6c721b8d496183e7e99307ca8cff02560 kokardy <2720900+kokardy@users.noreply.github.com> 1783152292 +0900	commit: fix kulala.nvim for treesitter main branch
