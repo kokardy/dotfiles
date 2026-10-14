@@ -1,0 +1,12 @@
+# ~/.local/share/chezmoi/dot_config/fish/functions/agy-bill.fish.tmpl
+
+function agy-bill --description "Run agy CLI with paid API key (Gemini API)"
+    # GEMINI_CLI_HOMEで ~/.gemini ごと別ディレクトリに隔離する。
+    # 認証情報（google_accounts.json, oauth_creds.json）を含めて完全分離され、
+    # 通常の agy (Googleアカウント) と共存できる。
+    # ~/.config/agy-bill/.gemini/antigravity-cli/settings.json に
+    # modelProvider: gemini を設定しておくことでAPIキー認証が有効になる。
+    env GEMINI_API_KEY="{{ (bitwarden "item" "gemini-api-key").notes }}" \
+        GEMINI_CLI_HOME="$HOME/.config/agy-bill" \
+        agy $argv
+end

@@ -6,7 +6,7 @@ run = """
 curl https://mise.run | sh
 
 # install
-mise use -g uv bun cargo lua
+mise use -g uv bun cargo lua gh
 
 # xsel
 sudo apt-get install xsel
