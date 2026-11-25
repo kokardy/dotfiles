@@ -5,3 +5,7 @@
 .pytest_cache
 __pycache__
 uv.lock
+
+# nvim
+.config/nvim/.git
+.config/nvim/.git/**
